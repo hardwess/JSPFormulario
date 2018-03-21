@@ -11,33 +11,23 @@
 	<form action="./alunoControle">
 		<table>
 			<tr>
-				<div>
-					<th style="text-align: left"><label for="alunoID">ID:</label></th>
-					<th><input type="text" id="alunoID" /></th>
-				</div>
+				<th style="text-align: left"><label for="alunoID">ID:</label></th>
+				<th><input type="text" id="alunoID" /></th>
 			</tr>
 			<tr>
-				<div>
-					<th style="text-align: left"><label for="alunoRA">RA:</label></th>
-					<th><input type="text" id="alunoRA" /></th>
-				</div>
+				<th style="text-align: left"><label for="alunoRA">RA:</label></th>
+				<th><input type="text" id="alunoRA" /></th>
 			</tr>
 			<tr>
-				<div>
-					<th style="text-align: left"><label for="alunoNome">Nome:</label></th>
-					<th><input type="text" id="alunoNome" /></th>
-				</div>
+				<th style="text-align: left"><label for="alunoNome">Nome:</label></th>
+				<th><input type="text" id="alunoNome" /></th>
 			</tr>
 			<tr>
-				<div>
-					<th style="text-align: left"><label for="alunoNasc">Nascimento:</label></th>
-					<th><input type="date" id="alunoNasc" /></th>
-				</div>
+				<th style="text-align: left"><label for="alunoNasc">Nascimento:</label></th>
+				<th><input type="date" id="alunoNasc" /></th>
 			</tr>
 			<tr>
-				<div>
-					<th style="text-align: left"><button type="submit">Adcionar</button></th>
-				</div>
+				<th style="text-align: left"><button type="submit">Adcionar</button></th>
 			</tr>
 		</table>
 	</form>

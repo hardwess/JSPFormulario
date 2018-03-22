@@ -8,23 +8,23 @@
 </head>
 <body>
 	<h1>Gestão de Alunos</h1>
-	<form action="./alunoControle">
+	<form action="./alunoControle" method="post">
 		<table>
 			<tr>
 				<th style="text-align: left"><label for="alunoID">ID:</label></th>
-				<th><input type="text" id="alunoID" /></th>
+				<th><input type="text" id="alunoID" name="txtID" /></th>
 			</tr>
 			<tr>
 				<th style="text-align: left"><label for="alunoRA">RA:</label></th>
-				<th><input type="text" id="alunoRA" /></th>
+				<th><input type="text" id="alunoRA" name="txtRA"/></th>
 			</tr>
 			<tr>
 				<th style="text-align: left"><label for="alunoNome">Nome:</label></th>
-				<th><input type="text" id="alunoNome" /></th>
+				<th><input type="text" id="alunoNome" name="txtNome"  /></th>
 			</tr>
 			<tr>
 				<th style="text-align: left"><label for="alunoNasc">Nascimento:</label></th>
-				<th><input type="date" id="alunoNasc" /></th>
+				<th><input type="date" id="alunoNasc" name="txtNasc"  /></th>
 			</tr>
 			<tr>
 				<th style="text-align: left"><button type="submit">Adcionar</button></th>
